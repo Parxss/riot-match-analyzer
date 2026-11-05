@@ -16,7 +16,7 @@ url = f"https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{
 
 #4. pack secret key into header
 headers = {
-    "X-Riot-Token" : "RGAPI-119f953d-8e17-4373-a9cd-e2d1d8745fbd"
+    "X-Riot-Token" : "Your Riot Token"
 }
 #5. send the request and print the answer
 response = requests.get(url,headers=headers)
